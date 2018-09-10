@@ -1,8 +1,8 @@
 {
-    "name": "payprocessing/atol-online",
+    "name": "d3v3r73e/atol.online",
     "description": "Atol.online SDK",
     "require": {
-        "php": ">=5.3",
+        "php": ">=7.1",
         "psr/log": "1.0.2"
     },
     "require-dev": {
