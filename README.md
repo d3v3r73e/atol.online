@@ -3,27 +3,14 @@ Platron Atol SDK
 ## Установка
 
 Проект предполагает установку с использованием composer
-<pre><code>
-...
+<pre><code>...
     "repositories": [
         {
             "type": "git",
             "url": "https://github.com/d3v3r73e/atol-online"
         }
     ]
-...
-</pre></code>
-
-## Тесты
-Для работы тестов необходим PHPUnit, для его установки необходимо выполнить команду
-```
-composer require phpunit/phpunit
-```
-Для того, чтобы запустить интеграционные тесты нужно скопировать файл tests/integration/MerchantSettingsSample.php удалив 
-из названия Sample и вставив настройки магазина. После выполнить команду из корня проекта
-```
-vendor/bin/phpunit vendor/payprocessing/atol-online/tests/integration
-```
+...</pre></code>
 
 ## Примеры использования
 
